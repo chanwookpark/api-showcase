@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+group = "coreasset"
+version = "1.0"
+
+jar {
+    baseName = "spec-catalog"
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
