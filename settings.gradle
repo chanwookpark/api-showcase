@@ -1,12 +1,12 @@
 rootProject.name = 'api-showcase'
 
-include 'catalog-api'
-
-include 'catalog-spec'
-
 include 'product-api'
 
 include 'product-spec'
 
+include 'commonlib'
+
 include 'funshop'
+
+include 'deal-api'
 
